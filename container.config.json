@@ -10,6 +10,6 @@
   "customLogs": "stdout",
   "dataBaseName":"xpf-music",
   "executeSQLs":[
-    "CREATE DATABASE IF NOT EXISTS xpf-music;" gi
+    "CREATE DATABASE IF NOT EXISTS xpf-music;"
   ]
 }
