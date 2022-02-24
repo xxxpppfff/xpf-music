@@ -37,4 +37,4 @@ COPY --from=build /app/target/xpf-music-0.0.1-*.jar /xpf-music-0.0.1.jar
 EXPOSE 80
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/xpf-music-0.0.1.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/xpf-music-0.0.1.jar"]
